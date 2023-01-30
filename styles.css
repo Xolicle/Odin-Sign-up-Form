@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(\pilates.png);
+    background-image: url("images\pilates.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
