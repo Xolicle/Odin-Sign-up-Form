@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(\pilates.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+        
+}
+
+.formSection{
+    background-color: rgba(245, 222, 179, 0.8);
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+h2{
+    text-align: center;
+    color: #0b0b45;
+}
+h1{
+    text-align: center;
+    color: #0b0b45;
+    
+    align-items: center;
+
+}
+
+.watermark{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+.form-rows{
+
+    margin: 10px 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px;
+    color: #5c755e;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.form-col{
+    flex: 50%;    
+}
+form input{
+    display: block;
+    width: 75%;
+}
+
+input[type=button]{
+    width: 250px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fa206e;
+    /* padding: 5px; */
+    font-size: 20px;
+    border: none;
+    color: #ffdd99;
+    font-weight: bold;
+}
+
+.term{
+    margin-top: 15px;
+    color: #5c755e;
+    font-size: 18px;
+}
+.signin{
+    margin-top: 5px;
+    color: #5c755e;
+    font-size: 18px;
+
+}
+
+.signinLink{
+    text-decoration: none;
+    color: #fa206e;
+}
+#icon{
+    vertical-align:middle;
+    margin: -5px;
+    display: inline; 
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    
+}
+.logo{
+    display: flex;
+}
+
+@media screen and (max-width:600px) {
+    
+    .logo{
+        flex-direction: column;
+        font-size: 16px;
+        
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0;
+    }
+    h1{
+        width:90%;
+        margin-top: 0;
+        padding: 4px;
+        margin-bottom: 10px;
+    }
+    .formSection{
+        width: 100%;
+        margin: auto;        
+    }
+    .form-rows, input[type=button], .term, h2, .signin{
+        font-size: 16px;
+    }
+    #icon{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .logo{
+        flex-direction: row;
+        
+        width: 90%;                
+    }
+    .formSection{
+        margin: auto;
+        line-height: 500%;
+        border: 1px solid red;
+        width: 90vw;
+        position: relative;
+        
+                      
+    }
+   
+    
+}
+
