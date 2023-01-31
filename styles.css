@@ -15,7 +15,7 @@ body{
 
 .formSection{
     background-color: rgba(245, 222, 179, 0.8);
-    width: 50%;
+    max-width: 800px;
     margin: auto;
     padding: 10px;
     
